@@ -23,4 +23,7 @@ Inspired by the Horse2Zebra cycleGAN methodology (which was the analogy I used d
 ![image](https://user-images.githubusercontent.com/86003669/210072535-ef26703f-84ab-4e9c-a504-0e4e1c81a565.png)
 
 The epochs, batch size, number of samples and all in all number of iterations mentioned in the code are memory intensive, i.e. fro quick training and understanding of th neural networks.\
-Here to obtain the above depicted results in training, I have use approximately 7200 iterations to get the generated image and reconstructed image this good. The output may vary based upon the conditions and user requirements.
+Here to obtain the above depicted results in training, I have use approximately 7200 iterations to get the generated image and reconstructed image this good. The output may vary based upon the conditions and user requirements. 
+
+The reconstruction seems a bit wobbly/out of place in training as compared to that in test data since I changed numerous parameters in the code to get the desired domain adaptation. Perhaps further training with lower gradient descent can amend the reconstructed images to be more close to the real ones.
+
