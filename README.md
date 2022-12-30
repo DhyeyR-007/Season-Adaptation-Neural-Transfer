@@ -1,4 +1,4 @@
-# Season-Scene-Neural-Transfer
+# Season/Scene-Neural-Transfer
 Here in order to extend the concept of scene transfer/style transfer into an unpaired image-to-image translation, we code cycleGAN netowork in Python using Tensorflow and Keras librarires for image data processing and neural network development.\
 \
 The entire programming is done in Google Colaboratory.\
